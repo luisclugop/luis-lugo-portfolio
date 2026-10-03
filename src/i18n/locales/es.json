@@ -37,6 +37,46 @@
             }
         }
     },
+    "experience": {
+        "visit": "Visitar sitio",
+        "items": {
+            "cecyteh": {
+                "role": "Jefe de Departamento – Desarrollador Web Senior",
+                "company": "CECyTEH",
+                "location": "Pachuca de Soto, Hidalgo, México",
+                "period": "Abril 2018 – Actualidad",
+                "bullets": [
+                    "Desarrollo y mantengo el sitio web institucional oficial, con 20,000 a 40,000 visitantes al mes, usando JavaScript, jQuery, PHP y MySQL.",
+                    "Implemento y actualizo módulos, funcionalidades e interfaces a partir de los requerimientos de distintas áreas institucionales.",
+                    "Aseguro la continuidad de un sistema de alto tráfico mediante mantenimiento evolutivo, control de versiones con Git/GitHub y resolución proactiva de incidencias.",
+                    "Fortalezco la colaboración entre áreas con soluciones tecnológicas a la medida y comunicación técnica clara."
+                ]
+            },
+            "enapsys": {
+                "role": "JavaScript Development Engineer",
+                "company": "Enapsys",
+                "location": "Ciudad de México, México",
+                "period": "Agosto 2021 – Junio 2023",
+                "bullets": [
+                    "Entregué entre 10 y 20 tickets por sprint de 2 semanas: corrección de bugs, creación de vistas y componentes reutilizables con React.js y Hooks.",
+                    "Implementé navegación multivista con React Router.",
+                    "Habilité soporte multilenguaje con react-i18next.",
+                    "Trabajé bajo Scrum con equipos multidisciplinarios, gestionando el código con Git/GitHub.",
+                    "Contribuí a la confiabilidad del producto ejecutando pruebas unitarias en cada ciclo de desarrollo."
+                ]
+            },
+            "appy": {
+                "role": "Pasante en Programación",
+                "company": "APPY",
+                "location": "Costa Rica",
+                "period": "Enero 2018 – Abril 2018",
+                "bullets": [
+                    "Desarrollé un bot de atención a clientes, desde el análisis de requerimientos y la integración de servicios hasta la documentación técnica completa.",
+                    "Facilité la migración de los servicios del proyecto con planeación técnica y documentación detallada que redujo el riesgo de errores en la transición."
+                ]
+            }
+        }
+    },
     "sections": {
         "about": "Sobre mí",
         "experience": "Experiencia",

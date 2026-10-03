@@ -37,6 +37,46 @@
             }
         }
     },
+    "experience": {
+        "visit": "Visit website",
+        "items": {
+            "cecyteh": {
+                "role": "Department Head – Senior Web Developer",
+                "company": "CECyTEH",
+                "location": "Pachuca, Hidalgo, Mexico",
+                "period": "April 2018 – Present",
+                "bullets": [
+                    "Develop and maintain the official institutional website, serving 20,000–40,000 visitors per month with JavaScript, jQuery, PHP and MySQL.",
+                    "Build and update modules, features and interfaces based on requirements from different institutional areas.",
+                    "Keep a high-traffic system running smoothly through ongoing maintenance, Git/GitHub version control and proactive incident resolution.",
+                    "Strengthen collaboration across areas with tailored technical solutions and clear technical communication."
+                ]
+            },
+            "enapsys": {
+                "role": "JavaScript Development Engineer",
+                "company": "Enapsys",
+                "location": "Mexico City, Mexico",
+                "period": "August 2021 – June 2023",
+                "bullets": [
+                    "Delivered 10–20 tickets per 2-week sprint: bug fixes, new views and reusable components with React.js and Hooks.",
+                    "Implemented multi-view navigation with React Router.",
+                    "Enabled multilanguage support with react-i18next.",
+                    "Worked in Scrum with multidisciplinary teams, managing code with Git/GitHub.",
+                    "Improved product reliability by running unit tests in every development cycle."
+                ]
+            },
+            "appy": {
+                "role": "Programming Intern",
+                "company": "APPY",
+                "location": "Costa Rica",
+                "period": "January 2018 – April 2018",
+                "bullets": [
+                    "Built a customer service bot, from requirements analysis and service integration to full technical documentation.",
+                    "Facilitated the migration of the project's services with technical planning and detailed documentation that reduced transition risk."
+                ]
+            }
+        }
+    },
     "sections": {
         "about": "About me",
         "experience": "Experience",
