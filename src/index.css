@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+@theme {
+  --color-fondo: #120a1f;
+  --color-fondo-claro: #1d1030;
+  --color-texto: #fff4ea;
+  --color-rosa: #ff2e93;
+  --color-naranja: #ff7a3d;
+  --color-turquesa: #19e3d1;
+  --color-violeta: #7a3cff;
+
+  --font-display: "Anton", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: var(--font-sans);
+}
