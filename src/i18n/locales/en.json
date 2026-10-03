@@ -1,0 +1,23 @@
+{
+    "nav": {
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "hero": {
+        "role": "Frontend & Full Stack Developer",
+        "available": "Available for remote work"
+    },
+    "sections": {
+        "about": "About me",
+        "experience": "Experience",
+        "projects": "Projects",
+        "skills": "Skills",
+        "contact": "Contact"
+    },
+    "common": {
+        "comingSoon": "Content coming soon..."
+    }
+}
