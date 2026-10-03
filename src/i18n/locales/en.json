@@ -77,6 +77,33 @@
             }
         }
     },
+    "projects": {
+        "visit": "Visit site",
+        "featured": "Featured case study",
+        "role": "My role",
+        "impact": "Impact",
+        "more": "More projects",
+        "items": {
+            "cecyteh": {
+                "title": "CECyTEH Institutional Website",
+                "description": "Official website of the Colegio de Estudios Científicos y Tecnológicos del Estado de Hidalgo, built around the needs of multiple institutional areas.",
+                "role": "Lead developer and maintainer",
+                "impact": "20,000–40,000 monthly visitors"
+            },
+            "sotero": {
+                "title": "Sotero",
+                "description": "Web project. (Placeholder: description coming soon.)"
+            },
+            "calentadores": {
+                "title": "Water Heater Repair Villanueva",
+                "description": "Website for a local repair service. (Placeholder: to be confirmed.)"
+            },
+            "solstice": {
+                "title": "Solstice Vacation Club",
+                "description": "Website for a vacation club. (Placeholder: to be confirmed.)"
+            }
+        }
+    },
     "sections": {
         "about": "About me",
         "experience": "Experience",

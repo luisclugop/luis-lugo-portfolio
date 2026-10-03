@@ -77,6 +77,33 @@
             }
         }
     },
+    "projects": {
+        "visit": "Visitar sitio",
+        "featured": "Caso de estudio destacado",
+        "role": "Mi rol",
+        "impact": "Impacto",
+        "more": "Más proyectos",
+        "items": {
+            "cecyteh": {
+                "title": "Sitio web institucional de CECyTEH",
+                "description": "Sitio oficial del Colegio de Estudios Científicos y Tecnológicos del Estado de Hidalgo, construido en torno a las necesidades de múltiples áreas institucionales.",
+                "role": "Desarrollador principal y responsable del mantenimiento",
+                "impact": "20,000–40,000 visitantes al mes"
+            },
+            "sotero": {
+                "title": "Sotero",
+                "description": "Proyecto web. (Provisional: descripción próximamente.)"
+            },
+            "calentadores": {
+                "title": "Reparación de Calentadores Villanueva",
+                "description": "Sitio web de un servicio local de reparación. (Provisional: por confirmar.)"
+            },
+            "solstice": {
+                "title": "Solstice Vacation Club",
+                "description": "Sitio web de un club vacacional. (Provisional: por confirmar.)"
+            }
+        }
+    },
     "sections": {
         "about": "Sobre mí",
         "experience": "Experiencia",
