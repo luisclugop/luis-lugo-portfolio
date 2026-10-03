@@ -7,8 +7,35 @@
         "contact": "Contact"
     },
     "hero": {
+        "greeting": "Hi, I'm",
         "role": "Frontend & Full Stack Developer",
-        "available": "Available for remote work"
+        "tagline": "I build fast, polished web interfaces with React and keep high-traffic sites running smoothly.",
+        "available": "Available for remote work",
+        "ctaProjects": "View projects",
+        "ctaContact": "Get in touch"
+    },
+    "about": {
+        "p1": "I'm a web developer with 8+ years of experience building and maintaining web applications. I work across the stack, with a strong focus on JavaScript and React, plus PHP and MySQL on the backend.",
+        "p2": "At CECyTEH, I develop and maintain the official institutional website, serving 20,000–40,000 visitors every month. Before that, at Enapsys, I shipped features in Scrum sprints with a multidisciplinary team: reusable components, multi-view routing, i18n and unit tests.",
+        "p3": "Beyond code, I have hands-on experience running Google Ads and Meta campaigns and working with Adobe creative tools, so I think about performance, conversion and design, not just features.",
+        "stats": {
+            "years": {
+                "value": "8+",
+                "label": "Years of experience"
+            },
+            "visitors": {
+                "value": "20K–40K",
+                "label": "Monthly visitors on my main project"
+            },
+            "languages": {
+                "value": "ES · EN",
+                "label": "Native Spanish, advanced English"
+            },
+            "remote": {
+                "value": "Remote",
+                "label": "Frontend & Full Stack roles"
+            }
+        }
     },
     "sections": {
         "about": "About me",
