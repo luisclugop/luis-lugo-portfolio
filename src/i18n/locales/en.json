@@ -4,7 +4,9 @@
         "experience": "Experience",
         "projects": "Projects",
         "skills": "Skills",
-        "contact": "Contact"
+        "contact": "Contact",
+        "openMenu": "Open menu",
+        "closeMenu": "Close menu"
     },
     "hero": {
         "greeting": "Hi, I'm",
@@ -92,17 +94,45 @@
             },
             "sotero": {
                 "title": "Sotero",
-                "description": "Web project. (Placeholder: description coming soon.)"
+                "description": "Web project. A family restaurant, with the soul of a craft and seasonal flavors."
             },
             "calentadores": {
                 "title": "Water Heater Repair Villanueva",
-                "description": "Website for a local repair service. (Placeholder: to be confirmed.)"
+                "description": "Website for a local water heater repair service. Experienced technician with over 10 years of expertise."
             },
             "solstice": {
                 "title": "Solstice Vacation Club",
-                "description": "Website for a vacation club. (Placeholder: to be confirmed.)"
+                "description": "Official website of a vacation club. Exclusive stays at the best resorts and luxury villas in Mexico."
             }
         }
+    },
+    "skills": {
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend & Data",
+            "workflow": "Tools & Workflow",
+            "platforms": "Platforms"
+        },
+        "beyond": {
+            "title": "Beyond code",
+            "description": "I've run Google Ads and Meta campaigns and worked with Adobe creative tools, so I think about conversion, performance and design, not just features.",
+            "marketing": "Marketing",
+            "creative": "Creative"
+        }
+    },
+    "contact": {
+        "heading": "Let's work together",
+        "text": "I'm looking for remote Frontend and Full Stack roles. If you have an opportunity or a project in mind, I'd love to hear about it.",
+        "email": "Email",
+        "send": "Send email",
+        "copy": "Copy",
+        "copied": "Copied!",
+        "linkedin": "LinkedIn",
+        "viewProfile": "View profile",
+        "location": "Based in Hidalgo, Mexico · Working remotely"
+    },
+    "footer": {
+        "rights": "All rights reserved."
     },
     "sections": {
         "about": "About me",

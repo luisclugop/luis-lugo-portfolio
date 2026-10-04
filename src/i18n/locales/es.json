@@ -4,7 +4,9 @@
         "experience": "Experiencia",
         "projects": "Proyectos",
         "skills": "Skills",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "openMenu": "Abrir menú",
+        "closeMenu": "Cerrar menú"
     },
     "hero": {
         "greeting": "Hola, soy",
@@ -92,17 +94,45 @@
             },
             "sotero": {
                 "title": "Sotero",
-                "description": "Proyecto web. (Provisional: descripción próximamente.)"
+                "description": "Proyecto web. Un restaurante de familia, con alma de oficio y sabores de temporada."
             },
             "calentadores": {
                 "title": "Reparación de Calentadores Villanueva",
-                "description": "Sitio web de un servicio local de reparación. (Provisional: por confirmar.)"
+                "description": "Sitio web Reparación de Calentadores, Técnico con más de 10 años de experiencia."
             },
             "solstice": {
                 "title": "Solstice Vacation Club",
-                "description": "Sitio web de un club vacacional. (Provisional: por confirmar.)"
+                "description": "Sitio web de un club vacacional. Estancias exclusivas en los mejores resorts y villas de lujo en México."
             }
         }
+    },
+    "skills": {
+        "categories": {
+            "frontend": "Frontend",
+            "backend": "Backend y datos",
+            "workflow": "Herramientas y metodología",
+            "platforms": "Plataformas"
+        },
+        "beyond": {
+            "title": "Más allá del código",
+            "description": "He gestionado campañas en Google Ads y Meta y trabajado con herramientas creativas de Adobe, así que pienso en conversión, rendimiento y diseño, no solo en funcionalidades.",
+            "marketing": "Marketing",
+            "creative": "Creatividad"
+        }
+    },
+    "contact": {
+        "heading": "Trabajemos juntos",
+        "text": "Busco roles remotos de Frontend y Full Stack. Si tienes una oportunidad o un proyecto en mente, me encantará conocerlo.",
+        "email": "Correo",
+        "send": "Enviar correo",
+        "copy": "Copiar",
+        "copied": "¡Copiado!",
+        "linkedin": "LinkedIn",
+        "viewProfile": "Ver perfil",
+        "location": "Desde Hidalgo, México · Trabajo remoto"
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados."
     },
     "sections": {
         "about": "Sobre mí",

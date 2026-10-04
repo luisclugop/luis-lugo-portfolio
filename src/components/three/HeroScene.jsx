@@ -3,6 +3,7 @@ import { Stars } from '@react-three/drei'
 import * as THREE from 'three'
 import Sun from './Sun'
 import Grid from './Grid'
+import { useReducedMotion } from '../../hooks/useReducedMotion'
 
 function CameraRig() {
     useFrame((state) => {
@@ -13,13 +14,20 @@ function CameraRig() {
     return null
 }
 
-function HeroScene() {
+function HeroScene({ active = true }) {
+    const reduced = useReducedMotion()
+    const animate = active && !reduced
+
     return (
-        <Canvas camera={{ position: [0, 0.2, 5], fov: 60 }} dpr={[1, 2]}>
-            <Stars radius={80} depth={30} count={1500} factor={3} fade speed={0.5} />
+        <Canvas
+            frameloop={animate ? 'always' : 'demand'}
+            camera={{ position: [0, 0.2, 5], fov: 60 }}
+            dpr={[1, 2]}
+        >
+            <Stars radius={80} depth={30} count={1500} factor={3} fade speed={reduced ? 0 : 0.5} />
             <Sun />
             <Grid />
-            <CameraRig />
+            {!reduced && <CameraRig />}
         </Canvas>
     )
 }

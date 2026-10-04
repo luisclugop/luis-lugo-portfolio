@@ -1,17 +1,31 @@
 import { useTranslation } from 'react-i18next'
 import { profile } from '../data/profile'
-import HeroScene from '../components/three/HeroScene'
+import { lazy, Suspense, useEffect, useRef, useState } from 'react'
+
+const HeroScene = lazy(() => import('../components/three/HeroScene'))
 
 function Hero() {
     const { t } = useTranslation()
 
+    const ref = useRef(null)
+    const [visible, setVisible] = useState(true)
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting))
+        observer.observe(ref.current)
+        return () => observer.disconnect()
+    }, [])
+
     return (
         <section
+            ref={ref}
             id="inicio"
             className="relative min-h-screen overflow-hidden flex items-center justify-center px-6 text-center bg-gradient-to-b from-fondo via-violeta/40 to-rosa/30"
         >
             <div className="absolute inset-0">
-                <HeroScene />
+                <Suspense fallback={null}>
+                    <HeroScene active={visible} />
+                </Suspense>
             </div>
 
             <div className="relative z-10 flex flex-col items-center gap-6 pointer-events-none">

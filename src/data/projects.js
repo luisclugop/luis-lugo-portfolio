@@ -9,19 +9,19 @@ export const projects = [
     {
         key: 'sotero',
         url: 'https://sotero.com.mx',
-        image: null,
+        image: '/projects/sotero.webp',
         tech: ['React', 'Vite', 'Tailwind'],
     },
     {
         key: 'calentadores',
         url: 'https://reparacioncalentadoresvillanueva.com.mx',
-        image: null,
+        image: '/projects/reparacion_calentadores.webp',
         tech: ['React', 'Vite', 'Tailwind'],
     },
     {
         key: 'solstice',
         url: 'https://solsticevacationclub.com',
-        image: null,
+        image: '/projects/solstice.webp',
         tech: ['React', 'Vite', 'Tailwind'],
     },
 ]
