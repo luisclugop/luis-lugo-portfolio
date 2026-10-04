@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import Section from '../components/Section'
+import Reveal from '../components/Reveal'
 
 const jobs = [
     { key: 'cecyteh', url: 'https://cecyteh.edu.mx' },
@@ -18,7 +19,7 @@ function Experience() {
                     const bullets = t(`${base}.bullets`, { returnObjects: true })
 
                     return (
-                        <li key={key} className="relative pl-8">
+                        <Reveal as="li" key={key} className="relative pl-8">
                             <span
                                 className={`absolute -left-1.5 top-2 h-3 w-3 rounded-full ring-4 ring-fondo ${index === 0 ? 'bg-turquesa' : 'bg-gradient-to-r from-rosa to-naranja'
                                     }`}
@@ -46,7 +47,7 @@ function Experience() {
                             >
                                 {t('experience.visit')} →
                             </a>
-                        </li>
+                        </Reveal>
                     )
                 })}
             </ol>

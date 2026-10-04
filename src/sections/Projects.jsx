@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import Section from '../components/Section'
 import { projects } from '../data/projects'
+import Reveal from '../components/Reveal'
 
 function Preview({ project, title, className }) {
     if (project.image) {
@@ -44,7 +45,7 @@ function Projects() {
     return (
         <Section id="proyectos" title={t('sections.projects')}>
             {featured && (
-                <article className="grid gap-8 lg:grid-cols-2 rounded-3xl border border-white/10 bg-fondo-claro/60 p-6 md:p-8 mb-16">
+                <Reveal as="article" className="grid gap-8 lg:grid-cols-2 rounded-3xl border border-white/10 bg-fondo-claro/60 p-6 md:p-8 mb-16">
                     <Preview
                         project={featured}
                         title={t(`projects.items.${featured.key}.title`)}
@@ -80,16 +81,18 @@ function Projects() {
                             {t('projects.visit')} →
                         </a>
                     </div>
-                </article>
+                </Reveal>
             )}
 
             <h3 className="font-display text-2xl uppercase tracking-wide mb-6 text-texto/80">
                 {t('projects.more')}
             </h3>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {others.map((project) => (
-                    <article
+                {others.map((project, i) => (
+                    <Reveal
+                        as="article"
                         key={project.key}
+                        delay={i * 120}
                         className="rounded-2xl border border-white/10 bg-fondo-claro/60 overflow-hidden flex flex-col"
                     >
                         <Preview
@@ -114,7 +117,7 @@ function Projects() {
                                 {t('projects.visit')} →
                             </a>
                         </div>
-                    </article>
+                    </Reveal>
                 ))}
             </div>
         </Section>

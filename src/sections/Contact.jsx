@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import Section from '../components/Section'
 import { profile } from '../data/profile'
+import Reveal from '../components/Reveal'
 
 function Contact() {
     const { t } = useTranslation()
@@ -19,14 +20,14 @@ function Contact() {
 
     return (
         <Section id="contacto" title={t('sections.contact')}>
-            <div className="max-w-3xl">
+            <Reveal>
                 <h3 className="font-display text-4xl md:text-6xl uppercase tracking-wide">
                     {t('contact.heading')}
                 </h3>
                 <p className="mt-6 text-lg text-texto/70 leading-relaxed">{t('contact.text')}</p>
 
                 <div className="mt-10 grid gap-6 md:grid-cols-2">
-                    <div className="rounded-2xl border border-white/10 bg-fondo-claro/60 p-6">
+                    <Reveal className="rounded-2xl border border-white/10 bg-fondo-claro/60 p-6">
                         <p className="text-sm uppercase tracking-widest text-turquesa">{t('contact.email')}</p>
                         <p className="mt-3 break-all text-lg">{profile.email}</p>
                         <div className="mt-5 flex flex-wrap gap-3">
@@ -43,9 +44,9 @@ function Contact() {
                                 <span aria-live="polite">{copied ? t('contact.copied') : t('contact.copy')}</span>
                             </button>
                         </div>
-                    </div>
+                    </Reveal>
 
-                    <div className="rounded-2xl border border-white/10 bg-fondo-claro/60 p-6">
+                    <Reveal className="rounded-2xl border border-white/10 bg-fondo-claro/60 p-6">
                         <p className="text-sm uppercase tracking-widest text-turquesa">{t('contact.linkedin')}</p>
                         <p className="mt-3 text-lg">Luis Carlos Lugo</p>
                         <a
@@ -56,11 +57,11 @@ function Contact() {
                         >
                             {t('contact.viewProfile')} →
                         </a>
-                    </div>
+                    </Reveal>
                 </div>
 
                 <p className="mt-8 text-sm text-texto/50">{t('contact.location')}</p>
-            </div>
+            </Reveal>
         </Section>
     )
 }

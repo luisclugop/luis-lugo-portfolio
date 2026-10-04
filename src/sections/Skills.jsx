@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import Section from '../components/Section'
 import { skillCategories, marketingSkills, creativeSkills } from '../data/skills'
+import Reveal from '../components/Reveal'
 
 function Chip({ children }) {
     return (
@@ -16,9 +17,10 @@ function Skills() {
     return (
         <Section id="skills" title={t('sections.skills')}>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-                {skillCategories.map(({ key, items }) => (
-                    <div
+                {skillCategories.map(({ key, items }, i) => (
+                    <Reveal
                         key={key}
+                        delay={i * 100}
                         className={`rounded-2xl border border-white/10 bg-fondo-claro/60 p-6 ${key === 'frontend' ? 'md:col-span-2 lg:col-span-3' : ''
                             }`}
                     >
@@ -30,11 +32,11 @@ function Skills() {
                                 <Chip key={item}>{item}</Chip>
                             ))}
                         </ul>
-                    </div>
+                    </Reveal>
                 ))}
             </div>
 
-            <div className="mt-12 rounded-3xl p-px bg-gradient-to-r from-rosa via-naranja to-violeta">
+            <Reveal className="mt-12 rounded-3xl p-px bg-gradient-to-r from-rosa via-naranja to-violeta">
                 <div className="rounded-3xl bg-fondo p-8">
                     <h3 className="font-display text-4xl uppercase tracking-wide bg-gradient-to-r from-rosa to-naranja bg-clip-text text-transparent">
                         {t('skills.beyond.title')}
@@ -65,7 +67,7 @@ function Skills() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </Reveal>
         </Section>
     )
 }
